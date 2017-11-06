@@ -3,7 +3,7 @@ title: strategy-twitter
 type: index
 menu:
   main:
-    parent: Services
+    parent: services
     identifier: services/10
     weight: 30
 ---

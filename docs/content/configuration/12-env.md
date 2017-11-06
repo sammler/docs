@@ -4,7 +4,7 @@ url: configuration/environment-variables
 weight: 12
 menu:
   main:
-    parent: Configuration
+    parent: configuration
     identifier: 12
     weight: 12
 ---
@@ -19,6 +19,14 @@ export LOGSTASH_VERSION=5.5-alpine
 export RABBITMQ_VERSION=
 export S5R_LOG_SERVICE_VERSION=latest
 export S5R_SCHEDULER_SERVICE_VERSION=latest
+```
+
+## Services Configuration
+
+```sh
+
+export RABBITMQ_URL=amqp://guest:guest@s5r-rabbitmq:5672
+
 ```
 
 ## Logging

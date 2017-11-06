@@ -1,6 +1,6 @@
 
 docs/themes/hugo-material-docs:
-	git clone https://github.com/digitalcraftsman/hugo-material-docs.git $@
+	git clone https://github.com/sammler/hugo-material-docs.git $@
 
 docs-gen:
 	cd docs; \

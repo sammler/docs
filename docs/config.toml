@@ -1,8 +1,10 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "sammler.io Documentation"
-
 theme = "hugo-material-docs"
+metadataformat = "yaml"
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
 
 [params]
   author = "stefanwalther"
@@ -27,16 +29,24 @@ theme = "hugo-material-docs"
 [[menu.main]]
 	name   = "About"
 	url    = "about"
+	identifier = "about"
 	weight = 10
 
 [[menu.main]]
 	name   = "Configuration"
 	url    = "configuration"
+	identifier = "configuration"
 	weight = 20
 
 [[menu.main]]
 	name   = "Services"
 	url    = "services"
+	identifier = "services"
 	weight = 30
 
+[[menu.main]]
+	name   = "Contributing"
+	url    = "contributing"
+	identifier = "contributing"
+	weight = 40
 
