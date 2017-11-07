@@ -1,6 +1,6 @@
 ---
 title: Contributing/Index
-url: contributing
+url: contributing/index
 menu:
   main:
     parent: contributing

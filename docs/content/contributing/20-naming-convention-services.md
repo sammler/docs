@@ -1,6 +1,6 @@
 ---
 title: Naming convention for services
-url: contributing
+url: contributing/naming-conventions
 menu:
   main:
     parent: contributing

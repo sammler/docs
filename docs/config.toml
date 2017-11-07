@@ -23,8 +23,7 @@ googleAnalytics = ""
 
 [params.font]
 	text = "Open Sans"
-	code = "Inconsolata"
-
+	code = "Roboto"
 
 [[menu.main]]
 	name   = "About"
@@ -33,16 +32,17 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
-	name   = "Configuration"
-	url    = "configuration"
-	identifier = "configuration"
-	weight = 20
-
-[[menu.main]]
 	name   = "Services"
 	url    = "services"
 	identifier = "services"
+	weight = 20
+
+[[menu.main]]
+	name   = "Configuration"
+	url    = "configuration"
+	identifier = "configuration"
 	weight = 30
+
 
 [[menu.main]]
 	name   = "Contributing"
