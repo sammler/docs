@@ -1,0 +1,3 @@
+[submodule "docs/themes/hugo-material-docs"]
+	path = docs/themes/hugo-material-docs
+	url = git@github.com:sammler/hugo-material-docs.git
