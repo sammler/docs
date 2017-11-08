@@ -1,11 +1,8 @@
 ---
 title: About sammler.io
-weight: 10
-url: about/index
 menu:
   main:
     parent: about
-    identifier: about/index
 ---
 
 _sammler_ is my very personal attempt to bring business life, social activities and IoT together.

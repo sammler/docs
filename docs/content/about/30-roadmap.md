@@ -8,6 +8,9 @@ menu:
     identifier: about/roadmap
 ---
 
+I have spent most of 2017 to get some of the basics done for sammler. Now it's time to bring everything together.  
+Therefore phases have been defined for the next development steps.
+
 ## Phase 1: Core
 
 - [x] Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the [scheduler-service](/services/scheduler-service)
