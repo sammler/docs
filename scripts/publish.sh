@@ -2,7 +2,8 @@
 
 DIR=$(dirname "$0")
 
-cd $DIR/..
+echo $DIR
+cd $DIR/../docs
 
 if [[ $(git status -s) ]]
 then
