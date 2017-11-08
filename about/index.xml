@@ -28,9 +28,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/about/technology-choices/</guid>
-      <description> Some opinionated assumptions and technology choices have been made. But this might change over time.
- Programming/scripting languages: JavaScript / TypeScript, GoLang UI framework: Angular + TypeScript CSS framework: Clarity Storage: MongoDB Messaging: RabbitMQ Containerization: Docker Service orchestration: Docker Swarm, Kubernetes Deployment: Packer, Terraform, Vagrant  All other decisions will be documented over time.
-Angular Deployment </description>
+      <description>Some opinionated assumptions and technology choices have been made. But this might change over time.
+ Programming/scripting languages: JavaScript / TypeScript, GoLang UI framework: Angular + TypeScript CSS framework: Clarity Storage: MongoDB Messaging: RabbitMQ Containerization: Docker Service orchestration: Docker Swarm, Kubernetes Deployment: Packer, Terraform, Vagrant  All other decisions will be documented over time.</description>
     </item>
     
     <item>
