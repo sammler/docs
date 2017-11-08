@@ -5,6 +5,7 @@ menu:
   main:
     parent: about
     identifier: about/principles
+    
 ---
 
 While working on _sammler_ I have defined some principles, I try to follow:
