@@ -1,9 +1,10 @@
 ---
 title: strategy-twitter
+url: strategies/strategy-twitter
 menu:
   main:
-    parent: services
-    identifier: services/strategy-twitter
+    parent: strategies
+    identifier: strategies/strategy-twitter
 ---
 
 ## Goal
@@ -23,9 +24,19 @@ It's actually getting much more complicated if you add some of the following req
 - Provide a fully multi-tenant solution
 - Take care of the rate-limits of Twitter
 
+## Getting Started
+
+```sh
+$ npm run dc-up
+```
+
 ## Configuration
 
 - `PORT` - defaults to `3000`
+
+## Source Code
+
+All source code can be found in the following repository: [sammler/strategy-twitter](https://github.com/sammler/strategy-twitter)
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 

@@ -1,6 +1,6 @@
 ---
 title: Technology Choices
-weight: 30
+weight: 20
 url: about/technology-choices
 menu:
   main:

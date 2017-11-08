@@ -1,11 +1,10 @@
 ---
 title: Ports
 url: configuration/ports
-type: index
 menu:
   main:
     parent: configuration
-    identifier: configuration/10
+    identifier: configuration/ports
     weight: 10
 ---
 

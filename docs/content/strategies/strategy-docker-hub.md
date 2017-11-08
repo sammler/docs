@@ -2,8 +2,8 @@
 title: strategy-docker-hub
 menu:
   main:
-    parent: services
-    identifier: services/strategy-docker-hub
+    parent: strategies
+    identifier: strategies/strategy-docker-hub
 ---
 
 Use Docker's public API go get:

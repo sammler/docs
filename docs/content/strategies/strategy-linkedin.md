@@ -2,8 +2,8 @@
 title: strategy-linkedin
 menu:
   main:
-    parent: services
-    identifier: services/strategy-linkedin
+    parent: strategies
+    identifier: strategies/strategy-linkedin
 ---
 
 Use LinkedIn's APIs to get:

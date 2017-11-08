@@ -2,8 +2,8 @@
 title: strategy-github
 menu:
   main:
-    parent: services
-    identifier: services/strategy-github
+    parent: strategies
+    identifier: strategies/strategy-github
 ---
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

@@ -1,6 +1,7 @@
 ---
 title: General approach
 weight: 10
+draft: true
 menu:
   main:
     parent: about
