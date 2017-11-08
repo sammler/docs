@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on sammler.io Documentation</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on sammler.io Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Principles</title>
+      <link>/about/15-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/15-principles/</guid>
+      <description>While working on sammler I have defined some principles, I try to follow:
+ Everything is open sourced. Follow a Readme Driven Development.  Publish everything: my progress, failure, thoughts, decisions.
+(Will be fun in a year from now to especially read all the silly decisions ;-))  Use as much existing solutions as possible, focus on assembling, rather than writing new code. All activities should be continuously tested and deployed to the cloud.</description>
+    </item>
+    
+    <item>
+      <title>Technology Choices</title>
+      <link>/about/technology-choices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/technology-choices/</guid>
+      <description> Some opinionated assumptions and technology choices have been made. But this might change over time.
+ Programming/scripting languages: JavaScript / TypeScript, GoLang UI framework: Angular + TypeScript CSS framework: Clarity Storage: MongoDB Messaging: RabbitMQ Containerization: Docker Service orchestration: Docker Swarm, Kubernetes Deployment: Packer, Terraform, Vagrant  All other decisions will be documented over time.
+Angular Deployment </description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>/about/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/roadmap/</guid>
+      <description>I have spent most of 2017 to get some of the basics done for sammler. Now it&amp;rsquo;s time to bring everything together.
+Therefore phases have been defined for the next development steps.
+Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing Writing the results to a log-service Show the results of the log-service in a UI Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
+    </item>
+    
+  </channel>
+</rss>

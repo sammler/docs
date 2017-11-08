@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/about/15-principles/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/technology-choices/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/roadmap/</loc>
+  </url>
+  
+  <url>
+    <loc>/deployment/00-index/</loc>
+  </url>
+  
+  <url>
+    <loc>/services/log-service/</loc>
+  </url>
+  
+  <url>
+    <loc>/services/scheduler-service/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/configuration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contributing/index/</loc>
+  </url>
+  
+  <url>
+    <loc>/contributing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/deployment/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/configuration/environment-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/configuration/environments/</loc>
+  </url>
+  
+  <url>
+    <loc>/contributing/naming-conventions/</loc>
+  </url>
+  
+  <url>
+    <loc>/configuration/ports/</loc>
+  </url>
+  
+  <url>
+    <loc>/services/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/strategies/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contributing/nodejs-standards/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/strategies/strategy-docker-hub/</loc>
+  </url>
+  
+  <url>
+    <loc>/strategies/strategy-github/</loc>
+  </url>
+  
+  <url>
+    <loc>/strategies/strategy-linkedin/</loc>
+  </url>
+  
+  <url>
+    <loc>/strategies/strategy-twitter/</loc>
+  </url>
+  
+</urlset>
