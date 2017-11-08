@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contributings on sammler.io Documentation</title>
-    <link>https://sammler.github.io/docs/contributing/</link>
+    <link>https://sammler.github.io/contributing/</link>
     <description>Recent content in Contributings on sammler.io Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     
-	<atom:link href="https://sammler.github.io/docs/contributing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sammler.github.io/contributing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Contributing/Index</title>
-      <link>https://sammler.github.io/docs/contributing/index/</link>
+      <link>https://sammler.github.io/contributing/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/contributing/index/</guid>
+      <guid>https://sammler.github.io/contributing/index/</guid>
       <description>Primarily I do - especially at the beginning and in the next months - not expect any contributions, and that&amp;rsquo;s fine.
 I might pretty slowly progress on this project, as this is just a private project, only working on it in my free time.
 But stop: You might have similar requirements and interest, so please do not hesitate to drop me a line and add your thoughts.
@@ -25,19 +25,19 @@ Even if you do not want to actively participate, I am very interested in listeni
     
     <item>
       <title>Naming convention for services</title>
-      <link>https://sammler.github.io/docs/contributing/naming-conventions/</link>
+      <link>https://sammler.github.io/contributing/naming-conventions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/contributing/naming-conventions/</guid>
+      <guid>https://sammler.github.io/contributing/naming-conventions/</guid>
       <description> sammler-* - Core services sammler-nodelib-* - node.js libraries sammler-golib-* - GoLang libraries. sammler-middleware-* - Pluggable middleware sammler-middleware-{service}-db - Storage for the given middleware. sammler-middleware-{service}-{dep} - Other dependent service for the given middleware.  </description>
     </item>
     
     <item>
       <title>node.js Standards</title>
-      <link>https://sammler.github.io/docs/contributing/nodejs-standards/</link>
+      <link>https://sammler.github.io/contributing/nodejs-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/contributing/nodejs-standards/</guid>
+      <guid>https://sammler.github.io/contributing/nodejs-standards/</guid>
       <description> For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
 General express.js </description>
     </item>

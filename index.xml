@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sammler.io Documentation</title>
-    <link>https://sammler.github.io/docs/</link>
+    <link>https://sammler.github.io/</link>
     <description>Recent content on sammler.io Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     
-	<atom:link href="https://sammler.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sammler.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Principles</title>
-      <link>https://sammler.github.io/docs/about/15-principles/</link>
+      <link>https://sammler.github.io/about/15-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/about/15-principles/</guid>
+      <guid>https://sammler.github.io/about/15-principles/</guid>
       <description>While working on sammler I have defined some principles, I try to follow:
  Everything is open sourced. Follow a Readme Driven Development.  Publish everything: my progress, failure, thoughts, decisions.
 (Will be fun in a year from now to especially read all the silly decisions ;-))  Use as much existing solutions as possible, focus on assembling, rather than writing new code. All activities should be continuously tested and deployed to the cloud.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Technology Choices</title>
-      <link>https://sammler.github.io/docs/about/technology-choices/</link>
+      <link>https://sammler.github.io/about/technology-choices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/about/technology-choices/</guid>
+      <guid>https://sammler.github.io/about/technology-choices/</guid>
       <description> Some opinionated assumptions and technology choices have been made. But this might change over time.
  Programming/scripting languages: JavaScript / TypeScript, GoLang UI framework: Angular + TypeScript CSS framework: Clarity Storage: MongoDB Messaging: RabbitMQ Containerization: Docker Service orchestration: Docker Swarm, Kubernetes Deployment: Packer, Terraform, Vagrant  All other decisions will be documented over time.
 Angular Deployment </description>
@@ -35,10 +35,10 @@ Angular Deployment </description>
     
     <item>
       <title>Roadmap</title>
-      <link>https://sammler.github.io/docs/about/roadmap/</link>
+      <link>https://sammler.github.io/about/roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/about/roadmap/</guid>
+      <guid>https://sammler.github.io/about/roadmap/</guid>
       <description>I have spent most of 2017 to get some of the basics done for sammler. Now it&amp;rsquo;s time to bring everything together.
 Therefore phases have been defined for the next development steps.
 Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing Writing the results to a log-service Show the results of the log-service in a UI Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
@@ -46,37 +46,37 @@ Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=
     
     <item>
       <title></title>
-      <link>https://sammler.github.io/docs/deployment/00-index/</link>
+      <link>https://sammler.github.io/deployment/00-index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/deployment/00-index/</guid>
+      <guid>https://sammler.github.io/deployment/00-index/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sammler.github.io/docs/services/log-service/</link>
+      <link>https://sammler.github.io/services/log-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/services/log-service/</guid>
+      <guid>https://sammler.github.io/services/log-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://sammler.github.io/docs/services/scheduler-service/</link>
+      <link>https://sammler.github.io/services/scheduler-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
+      <guid>https://sammler.github.io/services/scheduler-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About sammler.io</title>
-      <link>https://sammler.github.io/docs/about/</link>
+      <link>https://sammler.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/about/</guid>
+      <guid>https://sammler.github.io/about/</guid>
       <description>sammler is my very personal attempt to bring business life, social activities and IoT together.
 I am fully adopting cloud computing as consumer and producer, but I hate it, that I don&amp;rsquo;t have all the data available at a fingertip - just to be able to analyze them.
 Furthermore I am fully adopting IoT, collecting already more than 1GB each week.
@@ -85,10 +85,10 @@ So I need a solution to constantly collect and analyze all the data, their corre
     
     <item>
       <title>Contributing/Index</title>
-      <link>https://sammler.github.io/docs/contributing/index/</link>
+      <link>https://sammler.github.io/contributing/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/contributing/index/</guid>
+      <guid>https://sammler.github.io/contributing/index/</guid>
       <description>Primarily I do - especially at the beginning and in the next months - not expect any contributions, and that&amp;rsquo;s fine.
 I might pretty slowly progress on this project, as this is just a private project, only working on it in my free time.
 But stop: You might have similar requirements and interest, so please do not hesitate to drop me a line and add your thoughts.
@@ -97,20 +97,20 @@ Even if you do not want to actively participate, I am very interested in listeni
     
     <item>
       <title>Environment Variables</title>
-      <link>https://sammler.github.io/docs/configuration/environment-variables/</link>
+      <link>https://sammler.github.io/configuration/environment-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/configuration/environment-variables/</guid>
+      <guid>https://sammler.github.io/configuration/environment-variables/</guid>
       <description>As of now, the entire deployment can be configured using an .env file. There is an .env file for each of the environments.
 Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONGODB_VERSION=3.5.13 # Logstash (docker image log export LOGSTASH_VERSION=5.5-alpine # RabbitMQ (docker image sammlerio/rabbitmq) export RABBITMQ_VERSION= # sammler/log-service export S5R_LOG_SERVICE_VERSION=latest # sammler/scheduler-service export S5R_SCHEDULER_SERVICE_VERSION=latest  Services Configuration Most of the services share some common configuration options, passed in by using environment variables.</description>
     </item>
     
     <item>
       <title>Environments</title>
-      <link>https://sammler.github.io/docs/configuration/environments/</link>
+      <link>https://sammler.github.io/configuration/environments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/configuration/environments/</guid>
+      <guid>https://sammler.github.io/configuration/environments/</guid>
       <description>The following environments are available:
  dev - Local VirtualBox environment. stage-local - Private VirtualBox environment (different machine). stage - Staging environment in the public cloud (DigitalOcean). prod - Production environment (DigitalOcean).  Dev  Uses Docker for Mac/Windows to deploy to a local Docker Swarm.
  All deployment scripts are available as bash-scripts.  Stage-Local  Same as Dev, but deployment to a different machine (in my intranet).  This environment can be ignored, I am using it primarily to save hosting costs.</description>
@@ -118,68 +118,68 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
     
     <item>
       <title>Naming convention for services</title>
-      <link>https://sammler.github.io/docs/contributing/naming-conventions/</link>
+      <link>https://sammler.github.io/contributing/naming-conventions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/contributing/naming-conventions/</guid>
+      <guid>https://sammler.github.io/contributing/naming-conventions/</guid>
       <description> sammler-* - Core services sammler-nodelib-* - node.js libraries sammler-golib-* - GoLang libraries. sammler-middleware-* - Pluggable middleware sammler-middleware-{service}-db - Storage for the given middleware. sammler-middleware-{service}-{dep} - Other dependent service for the given middleware.  </description>
     </item>
     
     <item>
       <title>Ports</title>
-      <link>https://sammler.github.io/docs/configuration/ports/</link>
+      <link>https://sammler.github.io/configuration/ports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/configuration/ports/</guid>
+      <guid>https://sammler.github.io/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
    Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
     </item>
     
     <item>
       <title>node.js Standards</title>
-      <link>https://sammler.github.io/docs/contributing/nodejs-standards/</link>
+      <link>https://sammler.github.io/contributing/nodejs-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/contributing/nodejs-standards/</guid>
+      <guid>https://sammler.github.io/contributing/nodejs-standards/</guid>
       <description> For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
 General express.js </description>
     </item>
     
     <item>
       <title>strategy-docker-hub</title>
-      <link>https://sammler.github.io/docs/strategies/strategy-docker-hub/</link>
+      <link>https://sammler.github.io/strategies/strategy-docker-hub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/strategies/strategy-docker-hub/</guid>
+      <guid>https://sammler.github.io/strategies/strategy-docker-hub/</guid>
       <description>Use Docker&amp;rsquo;s public API go get:
  All the repositories you are owning. A history of the stargazers for your repositories. A history of all the downloads for your repositories.</description>
     </item>
     
     <item>
       <title>strategy-github</title>
-      <link>https://sammler.github.io/docs/strategies/strategy-github/</link>
+      <link>https://sammler.github.io/strategies/strategy-github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/strategies/strategy-github/</guid>
+      <guid>https://sammler.github.io/strategies/strategy-github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>strategy-linkedin</title>
-      <link>https://sammler.github.io/docs/strategies/strategy-linkedin/</link>
+      <link>https://sammler.github.io/strategies/strategy-linkedin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/strategies/strategy-linkedin/</guid>
+      <guid>https://sammler.github.io/strategies/strategy-linkedin/</guid>
       <description>Use LinkedIn&amp;rsquo;s APIs to get:
  A daily history of the followers (new followers/unfollowers) of your account.</description>
     </item>
     
     <item>
       <title>strategy-twitter</title>
-      <link>https://sammler.github.io/docs/strategies/strategy-twitter/</link>
+      <link>https://sammler.github.io/strategies/strategy-twitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/strategies/strategy-twitter/</guid>
+      <guid>https://sammler.github.io/strategies/strategy-twitter/</guid>
       <description>Goal strategy-twitter has some pretty simple goals:
  Track the historic data of your Twitter account on a daily basis Track and analyze the amount of following/followers/lists Be able to identify who is following/unfollowing you  The Challenge Actually, tracking the followers by day using a simple Python script or something similar is not a big challenge. It&amp;rsquo;s actually getting much more complicated if you add some of the following requirements:</description>
     </item>
