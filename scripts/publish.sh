@@ -8,6 +8,9 @@ cd $DIR/../docs
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
+    echo "";
+    echo "";
+    git status;
     exit 1;
 fi
 
