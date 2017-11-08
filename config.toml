@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/docs"
 languageCode = "en-us"
 title = "sammler.io Documentation"
 theme = "hugo-material-docs"
