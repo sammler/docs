@@ -53,24 +53,6 @@ Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=
     </item>
     
     <item>
-      <title></title>
-      <link>https://sammler.github.io/docs/services/log-service/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sammler.github.io/docs/services/log-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sammler.github.io/docs/services/scheduler-service/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>About sammler.io</title>
       <link>https://sammler.github.io/docs/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -135,6 +117,26 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
     </item>
     
     <item>
+      <title>auth-service</title>
+      <link>https://sammler.github.io/docs/services/auth-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/auth-service/</guid>
+      <description>auth-service is a tiny, re-usable authentication service to be used in any microservices environment.
+It is built on top of express , passport and JWT, therefore easy to extend and integrate.
+Basic functionality  Registration of a user Login (and return a JWT token) Verify JWT token Logout Send password reset email Password reset Return the user&amp;rsquo;s profile  Social Authentication Providers  GitHub  As currently only GitHub is implemented, is should be pretty straightforward to extend auth-service with other authentication provider, such as:</description>
+    </item>
+    
+    <item>
+      <title>log-service</title>
+      <link>https://sammler.github.io/docs/services/log-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/log-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>node.js Standards</title>
       <link>https://sammler.github.io/docs/contributing/nodejs-standards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -142,6 +144,15 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
       <guid>https://sammler.github.io/docs/contributing/nodejs-standards/</guid>
       <description> For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
 General express.js </description>
+    </item>
+    
+    <item>
+      <title>scheduler-service</title>
+      <link>https://sammler.github.io/docs/services/scheduler-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
+      <description></description>
     </item>
     
     <item>

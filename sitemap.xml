@@ -19,14 +19,6 @@
   </url>
   
   <url>
-    <loc>https://sammler.github.io/docs/services/log-service/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sammler.github.io/docs/services/scheduler-service/</loc>
-  </url>
-  
-  <url>
     <loc>https://sammler.github.io/docs/about/</loc>
   </url>
   
@@ -91,12 +83,24 @@
   </url>
   
   <url>
+    <loc>https://sammler.github.io/docs/services/auth-service/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/services/log-service/</loc>
+  </url>
+  
+  <url>
     <loc>https://sammler.github.io/docs/contributing/nodejs-standards/</loc>
   </url>
   
   <url>
     <loc>https://sammler.github.io/docs/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/services/scheduler-service/</loc>
   </url>
   
   <url>

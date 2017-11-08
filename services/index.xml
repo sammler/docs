@@ -12,7 +12,18 @@
     
     
     <item>
-      <title></title>
+      <title>auth-service</title>
+      <link>https://sammler.github.io/docs/services/auth-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/auth-service/</guid>
+      <description>auth-service is a tiny, re-usable authentication service to be used in any microservices environment.
+It is built on top of express , passport and JWT, therefore easy to extend and integrate.
+Basic functionality  Registration of a user Login (and return a JWT token) Verify JWT token Logout Send password reset email Password reset Return the user&amp;rsquo;s profile  Social Authentication Providers  GitHub  As currently only GitHub is implemented, is should be pretty straightforward to extend auth-service with other authentication provider, such as:</description>
+    </item>
+    
+    <item>
+      <title>log-service</title>
       <link>https://sammler.github.io/docs/services/log-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -21,7 +32,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>scheduler-service</title>
       <link>https://sammler.github.io/docs/services/scheduler-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>strategy-github - sammler.io Documentation</title>
+    <title>auth-service - sammler.io Documentation</title>
     <meta name="generator" content="Hugo 0.30.2" />
 
     
     <meta name="description" content="sammler.io Documentation">
     
-    <link rel="canonical" href="https://sammler.github.io/docs/strategies/strategy-github/">
+    <link rel="canonical" href="https://sammler.github.io/docs/services/auth-service/">
     
     <meta name="author" content="stefanwalther">
     
 
-    <meta property="og:url" content="https://sammler.github.io/docs/strategies/strategy-github/">
+    <meta property="og:url" content="https://sammler.github.io/docs/services/auth-service/">
     <meta property="og:title" content="sammler.io Documentation">
     
     <meta name="apple-mobile-web-app-title" content="sammler.io Documentation">
@@ -100,7 +100,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        strategy-github
+        auth-service
       </div>
     </div>
 
@@ -556,9 +556,47 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>strategy-github </h1>
+			<h1>auth-service </h1>
 
-			<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+			
+
+<p><em>auth-service</em> is a tiny, re-usable authentication service to be used in any microservices environment.</p>
+
+<p>It is built on top of <a href="https://expressjs.com/">express</a> , <a href="http://passportjs.org/">passport</a> and <a href="https://jwt.io/">JWT</a>, therefore easy to extend and integrate.</p>
+
+<h3 id="basic-functionality">Basic functionality</h3>
+
+<ul>
+<li>Registration of a user</li>
+<li>Login (and return a JWT token)</li>
+<li>Verify JWT token</li>
+<li>Logout</li>
+<li>Send password reset email</li>
+<li>Password reset</li>
+<li>Return the user&rsquo;s profile</li>
+</ul>
+
+<h2 id="social-authentication-providers">Social Authentication Providers</h2>
+
+<ul>
+<li>GitHub</li>
+</ul>
+
+<p>As currently only GitHub is implemented, is should be pretty straightforward to extend <em>auth-service</em> with other authentication provider, such as:</p>
+
+<ul>
+<li>auth0</li>
+<li>saml</li>
+<li>oauth/oauth2</li>
+<li>DropBox</li>
+<li>Google</li>
+<li>Facebook</li>
+<li>LinkedIn</li>
+<li>OpenId</li>
+<li>&hellip;</li>
+</ul>
+
+<p>Just have a look at <a href="http://passportjs.org/">passports.js</a> and the supported strategies.</p>
 
 
 			<aside class="copyright" role="note">
@@ -577,7 +615,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="https://sammler.github.io/docs/strategies/strategy-docker-hub/" title="strategy-docker-hub">
+      <a href="https://sammler.github.io/docs/configuration/ports/" title="Ports">
         <span class="direction">
           Previous
         </span>
@@ -587,7 +625,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              strategy-docker-hub
+              Ports
             </div>
           </div>
         </div>
@@ -597,14 +635,14 @@
 
   <div class="next">
   
-      <a href="https://sammler.github.io/docs/strategies/strategy-linkedin/" title="strategy-linkedin">
+      <a href="https://sammler.github.io/docs/services/log-service/" title="log-service">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              strategy-linkedin
+              log-service
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
