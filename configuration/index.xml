@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configurations on sammler.io Documentation</title>
-    <link>https://sammler.github.io/configuration/</link>
+    <link>https://sammler.github.io/docs/configuration/</link>
     <description>Recent content in Configurations on sammler.io Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     
-	<atom:link href="https://sammler.github.io/configuration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sammler.github.io/docs/configuration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Environment Variables</title>
-      <link>https://sammler.github.io/configuration/environment-variables/</link>
+      <link>https://sammler.github.io/docs/configuration/environment-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/configuration/environment-variables/</guid>
+      <guid>https://sammler.github.io/docs/configuration/environment-variables/</guid>
       <description>As of now, the entire deployment can be configured using an .env file. There is an .env file for each of the environments.
 Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONGODB_VERSION=3.5.13 # Logstash (docker image log export LOGSTASH_VERSION=5.5-alpine # RabbitMQ (docker image sammlerio/rabbitmq) export RABBITMQ_VERSION= # sammler/log-service export S5R_LOG_SERVICE_VERSION=latest # sammler/scheduler-service export S5R_SCHEDULER_SERVICE_VERSION=latest  Services Configuration Most of the services share some common configuration options, passed in by using environment variables.</description>
     </item>
     
     <item>
       <title>Environments</title>
-      <link>https://sammler.github.io/configuration/environments/</link>
+      <link>https://sammler.github.io/docs/configuration/environments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/configuration/environments/</guid>
+      <guid>https://sammler.github.io/docs/configuration/environments/</guid>
       <description>The following environments are available:
  dev - Local VirtualBox environment. stage-local - Private VirtualBox environment (different machine). stage - Staging environment in the public cloud (DigitalOcean). prod - Production environment (DigitalOcean).  Dev  Uses Docker for Mac/Windows to deploy to a local Docker Swarm.
  All deployment scripts are available as bash-scripts.  Stage-Local  Same as Dev, but deployment to a different machine (in my intranet).  This environment can be ignored, I am using it primarily to save hosting costs.</description>
@@ -34,10 +34,10 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
     
     <item>
       <title>Ports</title>
-      <link>https://sammler.github.io/configuration/ports/</link>
+      <link>https://sammler.github.io/docs/configuration/ports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/configuration/ports/</guid>
+      <guid>https://sammler.github.io/docs/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
    Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
     </item>

@@ -3,116 +3,116 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sammler.github.io/about/15-principles/</loc>
+    <loc>https://sammler.github.io/docs/about/15-principles/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/about/technology-choices/</loc>
+    <loc>https://sammler.github.io/docs/about/technology-choices/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/about/roadmap/</loc>
+    <loc>https://sammler.github.io/docs/about/roadmap/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/deployment/00-index/</loc>
+    <loc>https://sammler.github.io/docs/deployment/00-index/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/services/log-service/</loc>
+    <loc>https://sammler.github.io/docs/services/log-service/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/services/scheduler-service/</loc>
+    <loc>https://sammler.github.io/docs/services/scheduler-service/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/about/</loc>
+    <loc>https://sammler.github.io/docs/about/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/about/</loc>
+    <loc>https://sammler.github.io/docs/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/categories/</loc>
+    <loc>https://sammler.github.io/docs/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/configuration/</loc>
+    <loc>https://sammler.github.io/docs/configuration/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/contributing/index/</loc>
+    <loc>https://sammler.github.io/docs/contributing/index/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/contributing/</loc>
+    <loc>https://sammler.github.io/docs/contributing/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/deployment/</loc>
+    <loc>https://sammler.github.io/docs/deployment/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/configuration/environment-variables/</loc>
+    <loc>https://sammler.github.io/docs/configuration/environment-variables/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/configuration/environments/</loc>
+    <loc>https://sammler.github.io/docs/configuration/environments/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/contributing/naming-conventions/</loc>
+    <loc>https://sammler.github.io/docs/contributing/naming-conventions/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/configuration/ports/</loc>
+    <loc>https://sammler.github.io/docs/configuration/ports/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/services/</loc>
+    <loc>https://sammler.github.io/docs/services/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/strategies/</loc>
+    <loc>https://sammler.github.io/docs/strategies/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/tags/</loc>
+    <loc>https://sammler.github.io/docs/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/contributing/nodejs-standards/</loc>
+    <loc>https://sammler.github.io/docs/contributing/nodejs-standards/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/</loc>
+    <loc>https://sammler.github.io/docs/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/strategies/strategy-docker-hub/</loc>
+    <loc>https://sammler.github.io/docs/strategies/strategy-docker-hub/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/strategies/strategy-github/</loc>
+    <loc>https://sammler.github.io/docs/strategies/strategy-github/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/strategies/strategy-linkedin/</loc>
+    <loc>https://sammler.github.io/docs/strategies/strategy-linkedin/</loc>
   </url>
   
   <url>
-    <loc>https://sammler.github.io/strategies/strategy-twitter/</loc>
+    <loc>https://sammler.github.io/docs/strategies/strategy-twitter/</loc>
   </url>
   
 </urlset>

@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strategies on sammler.io Documentation</title>
-    <link>https://sammler.github.io/strategies/</link>
+    <link>https://sammler.github.io/docs/strategies/</link>
     <description>Recent content in Strategies on sammler.io Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     
-	<atom:link href="https://sammler.github.io/strategies/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sammler.github.io/docs/strategies/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>strategy-docker-hub</title>
-      <link>https://sammler.github.io/strategies/strategy-docker-hub/</link>
+      <link>https://sammler.github.io/docs/strategies/strategy-docker-hub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/strategies/strategy-docker-hub/</guid>
+      <guid>https://sammler.github.io/docs/strategies/strategy-docker-hub/</guid>
       <description>Use Docker&amp;rsquo;s public API go get:
  All the repositories you are owning. A history of the stargazers for your repositories. A history of all the downloads for your repositories.</description>
     </item>
     
     <item>
       <title>strategy-github</title>
-      <link>https://sammler.github.io/strategies/strategy-github/</link>
+      <link>https://sammler.github.io/docs/strategies/strategy-github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/strategies/strategy-github/</guid>
+      <guid>https://sammler.github.io/docs/strategies/strategy-github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>strategy-linkedin</title>
-      <link>https://sammler.github.io/strategies/strategy-linkedin/</link>
+      <link>https://sammler.github.io/docs/strategies/strategy-linkedin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/strategies/strategy-linkedin/</guid>
+      <guid>https://sammler.github.io/docs/strategies/strategy-linkedin/</guid>
       <description>Use LinkedIn&amp;rsquo;s APIs to get:
  A daily history of the followers (new followers/unfollowers) of your account.</description>
     </item>
     
     <item>
       <title>strategy-twitter</title>
-      <link>https://sammler.github.io/strategies/strategy-twitter/</link>
+      <link>https://sammler.github.io/docs/strategies/strategy-twitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/strategies/strategy-twitter/</guid>
+      <guid>https://sammler.github.io/docs/strategies/strategy-twitter/</guid>
       <description>Goal strategy-twitter has some pretty simple goals:
  Track the historic data of your Twitter account on a daily basis Track and analyze the amount of following/followers/lists Be able to identify who is following/unfollowing you  The Challenge Actually, tracking the followers by day using a simple Python script or something similar is not a big challenge. It&amp;rsquo;s actually getting much more complicated if you add some of the following requirements:</description>
     </item>
