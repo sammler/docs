@@ -1,4 +1,4 @@
-baseURL = "https://sammler.github.io/docs"
+baseURL = "https://sammler.github.io"
 languageCode = "en-us"
 title = "sammler.io Documentation"
 theme = "hugo-material-docs"
