@@ -21,6 +21,3 @@ Some opinionated assumptions and technology choices have been made. But this mig
 
 All other decisions will be documented over time.
 
-## Angular
-
-## Deployment
