@@ -5,7 +5,6 @@ menu:
   main:
     parent: contributing
     identifier: contributing/nodejs-standards
-    weight: 10
 ---
 
 For all node.js projects, the following standards should be used.

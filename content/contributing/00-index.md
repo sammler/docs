@@ -4,8 +4,6 @@ url: contributing/index
 menu:
   main:
     parent: contributing
-    identifier: contributing/index
-    weight: 1
 ---
 
 Primarily I do - especially at the beginning and in the next months - not expect any contributions, and that's fine.  
