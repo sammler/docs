@@ -1,6 +1,7 @@
 ---
-title: Contributing/Index
+title: Overview
 url: contributing/index
+weight: 1
 menu:
   main:
     parent: contributing
