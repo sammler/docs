@@ -13,9 +13,10 @@
           {{ $currentNode := . }}
           {{ range .Site.Menus.main.ByWeight }}
             {{ $.Scratch.Set "currentMenuEntry" . }}
+
             <section class="nav-group collapsible" title="{{ .Name }}">
               <input id="tab-group-{{ .Identifier}}" type="checkbox" checked="checked">
-              <label for="tab-group-{{ .Identifier}}">{{ .Name}}</label>
+              <label for="tab-group-{{ .Identifier}}" >{{ .Name}}</label>
 
               {{ if .HasChildren }}
                <ul class="nav-list">
@@ -24,8 +25,8 @@
                 {{ end }}
                 </ul>
               {{ end }}
-
             </section>
+
           {{ end }}
 
         </nav>
