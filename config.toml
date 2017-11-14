@@ -1,9 +1,10 @@
 baseUrl = "https://sammler.github.io/docs/"
 languageCode = "en-us"
 title = "sammler.io Documentation"
-theme = "hugo-material-docs"
+theme = "hugo-clarity-docs"
 metadataformat = "yaml"
 canonifyUrls = true
+disableFastRender = true
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
 
@@ -17,6 +18,9 @@ googleAnalytics = ""
   provider = "GitHub"
   repo_url = "https://github.com/sammler/docs"
   custom_css = ["css/override.css"]
+
+[params.siteLayout]
+  showHeader = true
 
 [params.palette]
   primary = "grey"
@@ -55,14 +59,20 @@ googleAnalytics = ""
 	weight = 40
 
 [[menu.main]]
+	name   = "Standards"
+	url    = "standards"
+	identifier = "standards"
+	weight = 50
+
+[[menu.main]]
 	name   = "Deployment"
 	url    = "deployment"
 	identifier = "deployment"
-	weight = 50
+	weight = 60
 
 [[menu.main]]
 	name   = "Contributing"
 	url    = "contributing"
 	identifier = "contributing"
-	weight = 40
+	weight = 70
 
