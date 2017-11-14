@@ -11,3 +11,4 @@ node_modules/
 # Generated content
 public/
 themes/hugo-material-docs
+themes/template
