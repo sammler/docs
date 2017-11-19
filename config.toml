@@ -64,11 +64,12 @@ googleAnalytics = ""
 	identifier = "standards"
 	weight = 50
 
-[[menu.main]]
-	name   = "Deployment"
-	url    = "deployment"
-	identifier = "deployment"
-	weight = 60
+#[[menu.main]]
+#	name   = "Deployment"
+#	draft  = true
+#	url    = "deployment"
+#	identifier = "deployment"
+#	weight = 60
 
 [[menu.main]]
 	name   = "Contributing"
