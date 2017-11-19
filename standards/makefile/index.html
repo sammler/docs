@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>strategy-linkedin - sammler.io Documentation</title>
+    <title>Makefile - sammler.io Documentation</title>
     <meta name="generator" content="Hugo 0.30.2" />
 
     
     <meta name="description" content="sammler.io Documentation">
     
-    <link rel="canonical" href="https://sammler.github.io/docs/strategies/strategy-linkedin/">
+    <link rel="canonical" href="https://sammler.github.io/docs/standards/makefile/">
     
     <meta name="author" content="stefanwalther">
     
 
-    <meta property="og:url" content="https://sammler.github.io/docs/strategies/strategy-linkedin/">
+    <meta property="og:url" content="https://sammler.github.io/docs/standards/makefile/">
     <meta property="og:title" content="sammler.io Documentation">
     
     <meta name="apple-mobile-web-app-title" content="sammler.io Documentation">
@@ -100,7 +100,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        strategy-linkedin
+        Makefile
       </div>
     </div>
 
@@ -624,15 +624,30 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>strategy-linkedin </h1>
+			<h1>Makefile </h1>
 
-			<p>Use LinkedIn&rsquo;s APIs to get:</p>
+			
 
-<ul>
-<li>A daily history of the followers (new followers/unfollowers) of your account.</li>
-</ul>
+<p>To simplify working with several projects, I have set up some standards:</p>
 
-<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+<h2 id="help">Help</h2>
+
+<p>Each Makefile should contain a help command:</p>
+
+<pre><code class="language-sh">help:								## Show this help.
+	@echo ''
+	@echo 'Available commands:'
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = &quot;:.*?## &quot;}; {printf &quot;\033[36m%-30s\033[0m %s\n&quot;, $$1, $$2}'
+	@echo ''
+.PHONY: help
+</code></pre>
+
+<h2 id="readme">Readme</h2>
+
+<pre><code class="language-sh">gen-readme: 					## Generate the README.md file.
+	npm run docs
+.PHONY: gen-readme
+</code></pre>
 
 
 			<aside class="copyright" role="note">
@@ -651,7 +666,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="https://sammler.github.io/docs/strategies/strategy-heartbeat/" title="strategy-heartbeat">
+      <a href="https://sammler.github.io/docs/about/faq/" title="FAQ">
         <span class="direction">
           Previous
         </span>
@@ -661,7 +676,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              strategy-heartbeat
+              FAQ
             </div>
           </div>
         </div>
@@ -671,14 +686,14 @@
 
   <div class="next">
   
-      <a href="https://sammler.github.io/docs/strategies/strategy-twitter/" title="strategy-twitter">
+      <a href="https://sammler.github.io/docs/contributing/naming-conventions/" title="Naming convention for services">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              strategy-twitter
+              Naming convention for services
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

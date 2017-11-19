@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>About sammler.io</title>
+      <link>https://sammler.github.io/docs/about/00-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/about/00-about/</guid>
+      <description>Introduction sammler is my very personal attempt to bring business life, social activities and IoT together.
+I am fully adopting cloud computing as consumer and producer, but I hate it, that I don&amp;rsquo;t have all the data available at a fingertip - just to be able to analyze them.
+Furthermore I am fully adopting IoT, collecting already more than 1GB each week.
+So I need a solution to constantly collect and analyze all the data, their correlation, just to get interesting insights.</description>
+    </item>
+    
+    <item>
       <title>Principles</title>
       <link>https://sammler.github.io/docs/about/15-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,9 +50,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/about/roadmap/</guid>
-      <description>I have spent most of 2017 to get some of the basics done for sammler. Now it&amp;rsquo;s time to bring everything together.
+      <description>I have spent most of 2017 to get some of the basics done for sammler (and basically learn, learn &amp;amp; learn). Now it&amp;rsquo;s time to bring everything together.
 Therefore phases have been defined for the next development steps.
 Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing Writing the results to a log-service Show the results of the log-service in a UI Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://sammler.github.io/docs/about/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/about/faq/</guid>
+      <description>What does sammler mean? sammler is the german word for collector, gatherer, assembler or collecting agent.
+How is the name written? sammler, not Sammler.
+What&amp;rsquo;s s5r ? s5r is just the abbreviation for sammler, just being lazy and because it looks cool and unique ;-)</description>
     </item>
     
   </channel>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Overview</title>
+      <link>https://sammler.github.io/docs/configuration/00-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/configuration/00-overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Environment Variables</title>
       <link>https://sammler.github.io/docs/configuration/environment-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,7 +48,7 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
       
       <guid>https://sammler.github.io/docs/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
-   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
+   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    3101 strategy-heartbeat    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
     </item>
     
   </channel>

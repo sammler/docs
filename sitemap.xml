@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sammler.github.io/docs/about/00-about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/configuration/00-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/contributing/index/</loc>
+  </url>
+  
+  <url>
     <loc>https://sammler.github.io/docs/about/15-principles/</loc>
   </url>
   
@@ -16,10 +28,6 @@
   
   <url>
     <loc>https://sammler.github.io/docs/deployment/00-index/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sammler.github.io/docs/about/</loc>
   </url>
   
   <url>
@@ -38,10 +46,6 @@
   </url>
   
   <url>
-    <loc>https://sammler.github.io/docs/contributing/index/</loc>
-  </url>
-  
-  <url>
     <loc>https://sammler.github.io/docs/contributing/</loc>
     <priority>0</priority>
   </url>
@@ -52,11 +56,23 @@
   </url>
   
   <url>
+    <loc>https://sammler.github.io/docs/standards/docker-images/</loc>
+  </url>
+  
+  <url>
     <loc>https://sammler.github.io/docs/configuration/environment-variables/</loc>
   </url>
   
   <url>
     <loc>https://sammler.github.io/docs/configuration/environments/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/about/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/standards/makefile/</loc>
   </url>
   
   <url>
@@ -69,6 +85,11 @@
   
   <url>
     <loc>https://sammler.github.io/docs/services/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/standards/</loc>
     <priority>0</priority>
   </url>
   
@@ -109,6 +130,10 @@
   
   <url>
     <loc>https://sammler.github.io/docs/strategies/strategy-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sammler.github.io/docs/strategies/strategy-heartbeat/</loc>
   </url>
   
   <url>

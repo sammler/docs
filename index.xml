@@ -12,6 +12,39 @@
     
     
     <item>
+      <title>About sammler.io</title>
+      <link>https://sammler.github.io/docs/about/00-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/about/00-about/</guid>
+      <description>Introduction sammler is my very personal attempt to bring business life, social activities and IoT together.
+I am fully adopting cloud computing as consumer and producer, but I hate it, that I don&amp;rsquo;t have all the data available at a fingertip - just to be able to analyze them.
+Furthermore I am fully adopting IoT, collecting already more than 1GB each week.
+So I need a solution to constantly collect and analyze all the data, their correlation, just to get interesting insights.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://sammler.github.io/docs/configuration/00-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/configuration/00-overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://sammler.github.io/docs/contributing/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/contributing/index/</guid>
+      <description>Primarily I do - especially at the beginning and in the next months - not expect any contributions, and that&amp;rsquo;s fine.
+I might pretty slowly progress on this project, as this is just a private project, only working on it in my free time.
+But stop: You might have similar requirements and interest, so please do not hesitate to drop me a line and add your thoughts.
+Even if you do not want to actively participate, I am very interested in listening to your opinion and your related requirements.</description>
+    </item>
+    
+    <item>
       <title>Principles</title>
       <link>https://sammler.github.io/docs/about/15-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,7 +71,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/about/roadmap/</guid>
-      <description>I have spent most of 2017 to get some of the basics done for sammler. Now it&amp;rsquo;s time to bring everything together.
+      <description>I have spent most of 2017 to get some of the basics done for sammler (and basically learn, learn &amp;amp; learn). Now it&amp;rsquo;s time to bring everything together.
 Therefore phases have been defined for the next development steps.
 Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing Writing the results to a log-service Show the results of the log-service in a UI Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
     </item>
@@ -53,27 +86,13 @@ Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=
     </item>
     
     <item>
-      <title>About sammler.io</title>
-      <link>https://sammler.github.io/docs/about/</link>
+      <title>Docker Images</title>
+      <link>https://sammler.github.io/docs/standards/docker-images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/about/</guid>
-      <description>sammler is my very personal attempt to bring business life, social activities and IoT together.
-I am fully adopting cloud computing as consumer and producer, but I hate it, that I don&amp;rsquo;t have all the data available at a fingertip - just to be able to analyze them.
-Furthermore I am fully adopting IoT, collecting already more than 1GB each week.
-So I need a solution to constantly collect and analyze all the data, their correlation, just to get interesting insights.</description>
-    </item>
-    
-    <item>
-      <title>Contributing/Index</title>
-      <link>https://sammler.github.io/docs/contributing/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sammler.github.io/docs/contributing/index/</guid>
-      <description>Primarily I do - especially at the beginning and in the next months - not expect any contributions, and that&amp;rsquo;s fine.
-I might pretty slowly progress on this project, as this is just a private project, only working on it in my free time.
-But stop: You might have similar requirements and interest, so please do not hesitate to drop me a line and add your thoughts.
-Even if you do not want to actively participate, I am very interested in listening to your opinion and your related requirements.</description>
+      <guid>https://sammler.github.io/docs/standards/docker-images/</guid>
+      <description> Some standards I have come up over time to standardize the process of building Docker images:
+Use of multi-stage builds  Docker images make use of multi-stage build to  reduce their size to include tests in the build   Home directory for code /opt/{name}  </description>
     </item>
     
     <item>
@@ -98,6 +117,28 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
     </item>
     
     <item>
+      <title>FAQ</title>
+      <link>https://sammler.github.io/docs/about/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/about/faq/</guid>
+      <description>What does sammler mean? sammler is the german word for collector, gatherer, assembler or collecting agent.
+How is the name written? sammler, not Sammler.
+What&amp;rsquo;s s5r ? s5r is just the abbreviation for sammler, just being lazy and because it looks cool and unique ;-)</description>
+    </item>
+    
+    <item>
+      <title>Makefile</title>
+      <link>https://sammler.github.io/docs/standards/makefile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/standards/makefile/</guid>
+      <description> To simplify working with several projects, I have set up some standards:
+Help Each Makefile should contain a help command:
+help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @grep -E &#39;^[a-zA-Z_-]+:.*?## .*$$&#39; $(MAKEFILE_LIST) | sort | awk &#39;BEGIN {FS = &amp;quot;:.*?## &amp;quot;}; {printf &amp;quot;\033[36m%-30s\033[0m %s\n&amp;quot;, $$1, $$2}&#39; @echo &#39;&#39; .PHONY: help  Readme gen-readme: ## Generate the README.md file. npm run docs .PHONY: gen-readme  </description>
+    </item>
+    
+    <item>
       <title>Naming convention for services</title>
       <link>https://sammler.github.io/docs/contributing/naming-conventions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,7 +154,7 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
       
       <guid>https://sammler.github.io/docs/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
-   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
+   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    3101 strategy-heartbeat    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
     </item>
     
     <item>
@@ -122,7 +163,7 @@ Versions of Docker Images # MongoDB (docker image sammlerio/mongodb) export MONG
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/auth-service/</guid>
-      <description>auth-service is a tiny, re-usable authentication service to be used in any microservices environment.
+      <description>Introduction auth-service is a tiny, re-usable authentication service to be used in any microservices environment.
 It is built on top of express , passport and JWT, therefore easy to extend and integrate.
 Basic functionality  Registration of a user Login (and return a JWT token) Verify JWT token Logout Send password reset email Password reset Return the user&amp;rsquo;s profile  Social Authentication Providers  GitHub  As currently only GitHub is implemented, is should be pretty straightforward to extend auth-service with other authentication provider, such as:</description>
     </item>
@@ -133,7 +174,7 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/log-service/</guid>
-      <description></description>
+      <description> Introduction </description>
     </item>
     
     <item>
@@ -143,7 +184,9 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
       
       <guid>https://sammler.github.io/docs/contributing/nodejs-standards/</guid>
       <description> For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
-General express.js </description>
+General express.js Badges Greenkeeper:
+## Replace NAME [![Greenkeeper badge](https://badges.greenkeeper.io/sammler/NAME.svg)](https://greenkeeper.io/)  CircleCI:
+## Replace NAME [![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)  </description>
     </item>
     
     <item>
@@ -152,7 +195,7 @@ General express.js </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description></description>
+      <description> Introduction </description>
     </item>
     
     <item>
@@ -171,6 +214,15 @@ General express.js </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/strategies/strategy-github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strategy-heartbeat</title>
+      <link>https://sammler.github.io/docs/strategies/strategy-heartbeat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/strategies/strategy-heartbeat/</guid>
       <description></description>
     </item>
     

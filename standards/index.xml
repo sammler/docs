@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Standards on sammler.io Documentation</title>
+    <link>https://sammler.github.io/docs/standards/</link>
+    <description>Recent content in Standards on sammler.io Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    
+	<atom:link href="https://sammler.github.io/docs/standards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker Images</title>
+      <link>https://sammler.github.io/docs/standards/docker-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/standards/docker-images/</guid>
+      <description> Some standards I have come up over time to standardize the process of building Docker images:
+Use of multi-stage builds  Docker images make use of multi-stage build to  reduce their size to include tests in the build   Home directory for code /opt/{name}  </description>
+    </item>
+    
+    <item>
+      <title>Makefile</title>
+      <link>https://sammler.github.io/docs/standards/makefile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/standards/makefile/</guid>
+      <description> To simplify working with several projects, I have set up some standards:
+Help Each Makefile should contain a help command:
+help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @grep -E &#39;^[a-zA-Z_-]+:.*?## .*$$&#39; $(MAKEFILE_LIST) | sort | awk &#39;BEGIN {FS = &amp;quot;:.*?## &amp;quot;}; {printf &amp;quot;\033[36m%-30s\033[0m %s\n&amp;quot;, $$1, $$2}&#39; @echo &#39;&#39; .PHONY: help  Readme gen-readme: ## Generate the README.md file. npm run docs .PHONY: gen-readme  </description>
+    </item>
+    
+  </channel>
+</rss>

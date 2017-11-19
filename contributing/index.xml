@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Contributing/Index</title>
+      <title>Overview</title>
       <link>https://sammler.github.io/docs/contributing/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -39,7 +39,9 @@ Even if you do not want to actively participate, I am very interested in listeni
       
       <guid>https://sammler.github.io/docs/contributing/nodejs-standards/</guid>
       <description> For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
-General express.js </description>
+General express.js Badges Greenkeeper:
+## Replace NAME [![Greenkeeper badge](https://badges.greenkeeper.io/sammler/NAME.svg)](https://greenkeeper.io/)  CircleCI:
+## Replace NAME [![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)  </description>
     </item>
     
   </channel>
