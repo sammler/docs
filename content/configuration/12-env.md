@@ -35,7 +35,7 @@ Most of the services share some common configuration options, passed in by using
 
 ```sh
 
-export RABBITMQ_URL=amqp://guest:guest@s5r-rabbitmq:5672
+export RABBITMQ_URI=amqp://guest:guest@s5r-rabbitmq:5672
 
 ```
 

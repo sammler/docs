@@ -14,3 +14,17 @@ across several projects.
 ## General
 
 ## express.js
+
+## Badges
+
+Greenkeeper:
+```sh
+## Replace NAME
+[![Greenkeeper badge](https://badges.greenkeeper.io/sammler/NAME.svg)](https://greenkeeper.io/)
+```
+
+CircleCI:
+```sh
+## Replace NAME
+[![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)
+```
