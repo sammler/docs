@@ -18,6 +18,7 @@ Overview of sammler.io services and their assigned ports.
 | `3004`  | log-service | |
 | `3010`  | auth-service | |
 | `3100`  | strategy-github | |
+| `3101`  | strategy-heartbeat | |
 | `4200`  | sammler-web | |
 | `5000`  | Logstash | |
 | `5672`  | RabbitMq | |
