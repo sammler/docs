@@ -1,7 +1,7 @@
 baseUrl = "https://sammler.github.io/docs/"
 languageCode = "en-us"
 title = "sammler.io Documentation"
-theme = "hugo-clarity-docs"
+theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyUrls = true
 disableFastRender = true
