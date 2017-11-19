@@ -1,5 +1,5 @@
 ---
-title: About sammler.io
+title: "About sammler.io"
 weight: 1
 
 menu:
@@ -7,6 +7,8 @@ menu:
     parent: about
     identifier: about/index
 ---
+
+## Introduction
 
 _sammler_ is my very personal attempt to bring business life, social activities and IoT together.
 

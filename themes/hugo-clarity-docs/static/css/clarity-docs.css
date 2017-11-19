@@ -1,0 +1,35 @@
+
+main {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+main article {
+  /* This will be twice as big as the small item. */
+  -webkit-flex: 2 0 0;
+  flex: 2 0 0;
+}
+
+main aside {
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+}
+
+main article header {
+  background-color: transparent;
+  width: 80%;
+}
+
+main article h2 {
+  font-size: 1.5em;
+}
+
+#TableOfContents {
+  position: fixed;
+}
+
+#TableOfContents > ul {
+  list-style: none;
+}
