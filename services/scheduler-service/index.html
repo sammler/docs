@@ -630,6 +630,28 @@
 
 <h2 id="introduction">Introduction</h2>
 
+<p>_scheduler<em>service</em> publishes messages to RabbitMQ based on scheduled events (jobs).</p>
+
+<p>It is also the responsibility of <em>sammler-scheduler</em> to store the initial state of jobs (using <em>sammler-jobs-service</em>).</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>The following environment variables need to be defined for running the service:</p>
+
+<h3 id="scheduler-service-related">scheduler-service Related</h3>
+
+<ul>
+<li><code>LOAD_JOBS_FROM_FILE</code> - If set to true, the config files will be loaded from the directory <code>/opts/scheduler-service/jobs/jobs.yml</code></li>
+</ul>
+
+<h3 id="dependent-services">Dependent Services</h3>
+
+<ul>
+<li><code>RABBITMQ_URI</code> - The RabbitMQ URI.</li>
+<li><code>JOBS_SERVICE_URI</code> - The resource URI of the jobs-service.</li>
+<li><code>LOG_SERVICE_URI</code> - The resource URI of the log-service.</li>
+</ul>
+
 
 			<aside class="copyright" role="note">
 				

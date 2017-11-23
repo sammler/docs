@@ -28,7 +28,9 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/log-service/</guid>
-      <description> Introduction </description>
+      <description>Introduction {%=name%} is a very simple logging service, which just acts as a temporary solution to get some logging up and running.
+It logs to MongoDB and exposes some endpoints to create and to retrieve logs.
+The solution was primarily created, because the ELK-stack just felt to heavy (&amp;gt; 1.5 GB RAM needed) for sammler.</description>
     </item>
     
     <item>
@@ -37,7 +39,10 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description> Introduction </description>
+      <description>Introduction _schedulerservice publishes messages to RabbitMQ based on scheduled events (jobs).
+It is also the responsibility of sammler-scheduler to store the initial state of jobs (using sammler-jobs-service).
+Configuration The following environment variables need to be defined for running the service:
+scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services  RABBITMQ_URI - The RabbitMQ URI. JOBS_SERVICE_URI - The resource URI of the jobs-service.</description>
     </item>
     
   </channel>

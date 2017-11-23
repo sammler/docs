@@ -73,7 +73,7 @@ Even if you do not want to actively participate, I am very interested in listeni
       <guid>https://sammler.github.io/docs/about/roadmap/</guid>
       <description>I have spent most of 2017 to get some of the basics done for sammler (and basically learn, learn &amp;amp; learn). Now it&amp;rsquo;s time to bring everything together.
 Therefore phases have been defined for the next development steps.
-Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing Writing the results to a log-service Show the results of the log-service in a UI Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
+Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing (heartbeat-service) Writing the results to a log-service (heartbeat-service) Show the results of the log-service in a UI Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
     </item>
     
     <item>
@@ -154,7 +154,7 @@ help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @g
       
       <guid>https://sammler.github.io/docs/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
-   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    3101 strategy-heartbeat    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
+   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    3101 strategy-heartbeat    3102 strategy-heartbeat-ui    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
     </item>
     
     <item>
@@ -174,7 +174,9 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/log-service/</guid>
-      <description> Introduction </description>
+      <description>Introduction {%=name%} is a very simple logging service, which just acts as a temporary solution to get some logging up and running.
+It logs to MongoDB and exposes some endpoints to create and to retrieve logs.
+The solution was primarily created, because the ELK-stack just felt to heavy (&amp;gt; 1.5 GB RAM needed) for sammler.</description>
     </item>
     
     <item>
@@ -195,7 +197,10 @@ General express.js Badges Greenkeeper:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description> Introduction </description>
+      <description>Introduction _schedulerservice publishes messages to RabbitMQ based on scheduled events (jobs).
+It is also the responsibility of sammler-scheduler to store the initial state of jobs (using sammler-jobs-service).
+Configuration The following environment variables need to be defined for running the service:
+scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services  RABBITMQ_URI - The RabbitMQ URI. JOBS_SERVICE_URI - The resource URI of the jobs-service.</description>
     </item>
     
     <item>
