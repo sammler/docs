@@ -16,8 +16,8 @@ Therefore phases have been defined for the next development steps.
 - [x] Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the [scheduler-service](/services/scheduler-service)
 - [x] Run those scheduled tasks, publishing messages to RabbitMQ
 - [ ] Periodically listening to the tasks and executing ([heartbeat-service](https://github.com/sammler/heartbeat-service))
-  - [ ] Writing the results to a log-service ([heartbeat-service](https://github.com/sammler/heartbeat-service))
-  - [ ] Show the results of the log-service in a UI
+  - [ ] Writing the results to a log-service ([strategy-heartbeat](https://github.com/sammler/strategy-heartbeat))
+  - [ ] Show the results of the log-service in a UI [heartbeat-service-ui](https://github.com/sammler/strategy-heartbeat-ui)
   - [ ] Log both locally or using a LaaS provider
 - Show the log results in some basic UI
 
