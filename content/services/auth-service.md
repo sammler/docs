@@ -39,3 +39,5 @@ As currently only GitHub is implemented, is should be pretty straightforward to 
 - ...
 
 Just have a look at [passports.js](http://passportjs.org/) and the supported strategies.
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
