@@ -52,7 +52,7 @@ So I need a solution to constantly collect and analyze all the data, their corre
       <guid>https://sammler.github.io/docs/about/roadmap/</guid>
       <description>I have spent most of 2017 to get some of the basics done for sammler (and basically learn, learn &amp;amp; learn). Now it&amp;rsquo;s time to bring everything together.
 Therefore phases have been defined for the next development steps.
-Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing (heartbeat-service) Writing the results to a log-service (strategy-heartbeat &amp;amp;&amp;amp; log-service) Show the results of the log-service in a UI heartbeat-service-ui Log both locally or using a LaaS provider  Show the log results in some basic UI  Phase 2: Runnable Stack scheduler-service with predefined jobs (.</description>
+Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing (heartbeat-service) Writing the results to a log-service (strategy-heartbeat &amp;amp;&amp;amp; log-service) Show the results of the log-service in a UI (strategy-heartbeat-ui) Log both locally or using a LaaS provider  Show the log results in some basic UI</description>
     </item>
     
     <item>
