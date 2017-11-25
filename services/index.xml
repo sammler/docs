@@ -23,6 +23,15 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
     </item>
     
     <item>
+      <title>jobs-service</title>
+      <link>https://sammler.github.io/docs/services/jobs-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/jobs-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>log-service</title>
       <link>https://sammler.github.io/docs/services/log-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,10 +48,10 @@ The solution was primarily created, because the ELK-stack just felt to heavy (&a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description>Introduction _schedulerservice publishes messages to RabbitMQ based on scheduled events (jobs).
-It is also the responsibility of sammler-scheduler to store the initial state of jobs (using sammler-jobs-service).
+      <description>Introduction scheduler-service publishes messages to RabbitMQ based on scheduled events (jobs).
+It is also the responsibility of scheduler-service to store the initial state of jobs (using sammler-jobs-service).
 Configuration The following environment variables need to be defined for running the service:
-scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services  RABBITMQ_URI - The RabbitMQ URI. JOBS_SERVICE_URI - The resource URI of the jobs-service.</description>
+scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services Dependent services can be linked as follows using environment variables:</description>
     </item>
     
   </channel>

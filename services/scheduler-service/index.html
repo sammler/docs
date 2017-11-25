@@ -382,6 +382,19 @@
 
 
 
+<a  title="jobs-service" href="https://sammler.github.io/docs/services/jobs-service/">
+	
+	jobs-service
+</a>
+
+
+
+      
+        
+        
+
+
+
 <a  title="log-service" href="https://sammler.github.io/docs/services/log-service/">
 	
 	log-service
@@ -630,9 +643,9 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>_scheduler<em>service</em> publishes messages to RabbitMQ based on scheduled events (jobs).</p>
+<p><em>scheduler-service</em> publishes messages to RabbitMQ based on scheduled events (jobs).</p>
 
-<p>It is also the responsibility of <em>sammler-scheduler</em> to store the initial state of jobs (using <em>sammler-jobs-service</em>).</p>
+<p>It is also the responsibility of <em>scheduler-service</em> to store the initial state of jobs (using <em>sammler-jobs-service</em>).</p>
 
 <h2 id="configuration">Configuration</h2>
 
@@ -646,11 +659,15 @@
 
 <h3 id="dependent-services">Dependent Services</h3>
 
+<p>Dependent services can be linked as follows using environment variables:</p>
+
 <ul>
 <li><code>RABBITMQ_URI</code> - The RabbitMQ URI.</li>
 <li><code>JOBS_SERVICE_URI</code> - The resource URI of the jobs-service.</li>
 <li><code>LOG_SERVICE_URI</code> - The resource URI of the log-service.</li>
 </ul>
+
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
 
 
 			<aside class="copyright" role="note">

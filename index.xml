@@ -73,7 +73,7 @@ Even if you do not want to actively participate, I am very interested in listeni
       <guid>https://sammler.github.io/docs/about/roadmap/</guid>
       <description>I have spent most of 2017 to get some of the basics done for sammler (and basically learn, learn &amp;amp; learn). Now it&amp;rsquo;s time to bring everything together.
 Therefore phases have been defined for the next development steps.
-Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing (heartbeat-service) Writing the results to a log-service (strategy-heartbeat &amp;amp;&amp;amp; log-service) Show the results of the log-service in a UI (strategy-heartbeat-ui) Log both locally or using a LaaS provider  Show the log results in some basic UI</description>
+Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=jobs) in the scheduler-service Run those scheduled tasks, publishing messages to RabbitMQ Periodically listening to the tasks and executing (heartbeat-service) Writing the results to a log-service (strategy-heartbeat &amp;amp;&amp;amp; log-service) Log both locally or using a LaaS provider  Show the results of the log-service in a UI (strategy-heartbeat-ui)</description>
     </item>
     
     <item>
@@ -169,6 +169,15 @@ Basic functionality  Registration of a user Login (and return a JWT token) Verif
     </item>
     
     <item>
+      <title>jobs-service</title>
+      <link>https://sammler.github.io/docs/services/jobs-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/jobs-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>log-service</title>
       <link>https://sammler.github.io/docs/services/log-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -197,10 +206,10 @@ General express.js Badges Greenkeeper:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description>Introduction _schedulerservice publishes messages to RabbitMQ based on scheduled events (jobs).
-It is also the responsibility of sammler-scheduler to store the initial state of jobs (using sammler-jobs-service).
+      <description>Introduction scheduler-service publishes messages to RabbitMQ based on scheduled events (jobs).
+It is also the responsibility of scheduler-service to store the initial state of jobs (using sammler-jobs-service).
 Configuration The following environment variables need to be defined for running the service:
-scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services  RABBITMQ_URI - The RabbitMQ URI. JOBS_SERVICE_URI - The resource URI of the jobs-service.</description>
+scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services Dependent services can be linked as follows using environment variables:</description>
     </item>
     
     <item>
