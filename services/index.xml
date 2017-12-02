@@ -61,7 +61,8 @@ The solution was primarily created, because the ELK-stack just felt to heavy (&a
       <description>Introduction scheduler-service publishes messages to RabbitMQ based on scheduled events (jobs).
 It is also the responsibility of scheduler-service to store the initial state of jobs (using sammler-jobs-service).
 Configuration The following environment variables need to be defined for running the service:
-scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Dependent Services Dependent services can be linked as follows using environment variables:</description>
+scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Here&amp;rsquo;s a sample file:
+ Dependent Services Dependent services can be linked as follows using environment variables:</description>
     </item>
     
   </channel>
