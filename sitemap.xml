@@ -120,6 +120,10 @@
   </url>
   
   <url>
+    <loc>https://sammler.github.io/docs/services/rabbitmq/</loc>
+  </url>
+  
+  <url>
     <loc>https://sammler.github.io/docs/</loc>
     <priority>0</priority>
   </url>

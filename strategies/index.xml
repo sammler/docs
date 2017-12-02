@@ -36,7 +36,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/strategies/strategy-heartbeat/</guid>
-      <description></description>
+      <description> Just a very minimalistic service, including the basic principles of other services, but easy to spin up. This is kind of the sandbox environment to test some principle and deployment.
+Configuration  PORT - RABBITMQ_URI - LOG_SERVICE_URI -  </description>
     </item>
     
     <item>

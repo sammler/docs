@@ -62,7 +62,7 @@ Even if you do not want to actively participate, I am very interested in listeni
       
       <guid>https://sammler.github.io/docs/about/technology-choices/</guid>
       <description>Some opinionated assumptions and technology choices have been made. But this might change over time.
- Programming/scripting languages: JavaScript / TypeScript, GoLang UI framework: Angular + TypeScript CSS framework: Clarity Storage: MongoDB Messaging: RabbitMQ Containerization: Docker Service orchestration: Docker Swarm, Kubernetes Deployment: Packer, Terraform, Vagrant  All other decisions will be documented over time.</description>
+ Programming/scripting languages: JavaScript / TypeScript, GoLang UI framework: Angular + TypeScript CSS framework: Clarity Storage: MongoDB Messaging: RabbitMQ Containerization: Docker Service orchestration: Docker Swarm, Kubernetes Cloud Deployment: Packer, Terraform, Vagrant  All other decisions will be documented over time.</description>
     </item>
     
     <item>
@@ -194,10 +194,21 @@ The solution was primarily created, because the ELK-stack just felt to heavy (&a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/contributing/nodejs-standards/</guid>
-      <description> For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
+      <description>For all node.js projects, the following standards should be used. This is certainly not obligatory, but helps to keep some kind of common flavor across several projects.
 General express.js Badges Greenkeeper:
 ## Replace NAME [![Greenkeeper badge](https://badges.greenkeeper.io/sammler/NAME.svg)](https://greenkeeper.io/)  CircleCI:
-## Replace NAME [![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)  </description>
+## Replace NAME [![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)  Graceful shutdown Termination signals should be handled proper.y
+const AppServer = require(&#39;./src/server.js&#39;); const ON_DEATH = require(&#39;death&#39;); let server = new AppServer(); ON_DEATH(async (/*signal, err*/) =&amp;gt; { console.</description>
+    </item>
+    
+    <item>
+      <title>rabbitmq</title>
+      <link>https://sammler.github.io/docs/services/rabbitmq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/rabbitmq/</guid>
+      <description>RabbitMQ image with custom configuration, primarily including the following plugins:
+   More details: sammler/docker-rabbitmq</description>
     </item>
     
     <item>
@@ -237,7 +248,8 @@ scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config file
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sammler.github.io/docs/strategies/strategy-heartbeat/</guid>
-      <description></description>
+      <description> Just a very minimalistic service, including the basic principles of other services, but easy to spin up. This is kind of the sandbox environment to test some principle and deployment.
+Configuration  PORT - RABBITMQ_URI - LOG_SERVICE_URI -  </description>
     </item>
     
     <item>

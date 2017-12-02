@@ -408,6 +408,19 @@
 
 
 
+<a  title="rabbitmq" href="https://sammler.github.io/docs/services/rabbitmq/">
+	
+	rabbitmq
+</a>
+
+
+
+      
+        
+        
+
+
+
 <a  title="scheduler-service" href="https://sammler.github.io/docs/services/scheduler-service/">
 	
 	scheduler-service
@@ -663,6 +676,24 @@ across several projects.</p>
 [![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)
 </code></pre>
 
+<h2 id="graceful-shutdown">Graceful shutdown</h2>
+
+<p>Termination signals should be handled proper.y</p>
+
+<pre><code class="language-js">const AppServer = require('./src/server.js');
+const ON_DEATH = require('death');
+
+let server = new AppServer();
+
+ON_DEATH(async (/*signal, err*/) =&gt; {
+  console.log('');
+  console.log('on-death');
+  await server.stop();
+});
+
+server.start();
+</code></pre>
+
 
 			<aside class="copyright" role="note">
 				
@@ -700,14 +731,14 @@ across several projects.</p>
 
   <div class="next">
   
-      <a href="https://sammler.github.io/docs/services/scheduler-service/" title="scheduler-service">
+      <a href="https://sammler.github.io/docs/services/rabbitmq/" title="rabbitmq">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              scheduler-service
+              rabbitmq
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
