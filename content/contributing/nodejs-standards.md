@@ -28,3 +28,22 @@ CircleCI:
 ## Replace NAME
 [![CircleCI](https://img.shields.io/circleci/project/github/sammler/NAME.svg)](https://circleci.com/gh/sammler/NAME)
 ```
+
+## Graceful shutdown
+
+Termination signals should be handled proper.y
+
+```js
+const AppServer = require('./src/server.js');
+const ON_DEATH = require('death');
+
+let server = new AppServer();
+
+ON_DEATH(async (/*signal, err*/) => {
+  console.log('');
+  console.log('on-death');
+  await server.stop();
+});
+
+server.start();
+```

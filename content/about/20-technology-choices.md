@@ -17,7 +17,7 @@ Some opinionated assumptions and technology choices have been made. But this mig
 - Messaging: [RabbitMQ](https://www.rabbitmq.com/)
 - Containerization: [Docker](https://www.docker.com/)
 - Service orchestration: [Docker Swarm](https://docs.docker.com/engine/swarm/), [Kubernetes](https://kubernetes.io/)
-- Deployment: [Packer](https://www.packer.io/), [Terraform](https://www.terraform.io/), [Vagrant](https://www.vagrantup.com/)
+- Cloud Deployment: [Packer](https://www.packer.io/), [Terraform](https://www.terraform.io/), [Vagrant](https://www.vagrantup.com/)
 
 All other decisions will be documented over time.
 
