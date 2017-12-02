@@ -19,6 +19,12 @@ The following environment variables need to be defined for running the service:
 ### scheduler-service Related
 - `LOAD_JOBS_FROM_FILE` - If set to true, the config files will be loaded from the directory `/opts/scheduler-service/jobs/jobs.yml`
 
+Here's a sample file:
+
+```yaml
+
+```
+
 ### Dependent Services
 
 Dependent services can be linked as follows using environment variables:
