@@ -22,7 +22,33 @@ The following environment variables need to be defined for running the service:
 Here's a sample file:
 
 ```yaml
-
+jobs:
+  - name: heartbeat
+    enabled: true
+    strategy: interval
+    exchange:
+      type: topic
+      name: system
+    key: heartbeat.interval
+    payload:
+      - foo: bar
+      - bar: baz
+    interval: 2000
+    options:
+      correlationId: "{{correlation_id}}"
+  - name: heartbeat_every_minute
+    enabled: true
+    strategy: cron
+    exchange:
+      type: topic
+      name: system
+    key: heartbeat.everyminute
+    payload:
+      - foo: bar
+      - bar: baz
+    cron_def: "* * * * *"
+    options:
+      correlationId: "{{correlation_id}}"
 ```
 
 ### Dependent Services
