@@ -17,6 +17,7 @@ Overview of sammler.io services and their assigned ports.
 | `3003`  | jobs-service | |
 | `3004`  | log-service | |
 | `3010`  | auth-service | |
+| `3011`  | user-profile | |
 | `3100`  | strategy-github | |
 | `3101`  | strategy-heartbeat | |
 | `3102`  | strategy-heartbeat-ui | |

@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: felicianotech/docker-hugo:0.21
     working_directory: ~/project
-  steps:
+    steps:
     - checkout
     - run:
         name: "Run Hugo"

@@ -21,7 +21,7 @@ $ make docs-serve
 ### Publish Docs
 
 ```sh
-$ ./publish.sh
+$ make-publish
 ```
 
 ## Readme
