@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>Makefile - sammler.io Documentation</title>
-    <meta name="generator" content="Hugo 0.30.2" />
+    <meta name="generator" content="Hugo 0.37.1" />
 
     
     <meta name="description" content="sammler.io Documentation">
@@ -663,7 +663,7 @@
 <pre><code class="language-sh">help:								## Show this help.
 	@echo ''
 	@echo 'Available commands:'
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = &quot;:.*?## &quot;}; {printf &quot;\033[36m%-30s\033[0m %s\n&quot;, $$1, $$2}'
+	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = &quot;:.*?## &quot;}; {printf &quot;\033[36m%-30s\033[0m %s\n&quot;, $$1, $$2}'
 	@echo ''
 .PHONY: help
 </code></pre>
@@ -678,7 +678,7 @@
 
 			<aside class="copyright" role="note">
 				
-				&copy; 2017 Released under the MIT license &ndash;
+				&copy; 2018 Released under the MIT license &ndash;
 				
 				Documentation built with
 				<a href="https://www.gohugo.io" target="_blank">Hugo</a>

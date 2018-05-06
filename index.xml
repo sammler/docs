@@ -6,7 +6,6 @@
     <description>Recent content on sammler.io Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Released under the MIT license</copyright>
     
 	<atom:link href="https://sammler.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -86,6 +85,15 @@ Phase 1: Core Have some scheduled tasks defined (file based, just a YML file) (=
     </item>
     
     <item>
+      <title></title>
+      <link>https://sammler.github.io/docs/services/user-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sammler.github.io/docs/services/user-profile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Docker Images</title>
       <link>https://sammler.github.io/docs/standards/docker-images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -135,7 +143,7 @@ What&amp;rsquo;s s5r ? s5r is just the abbreviation for sammler, just being lazy
       <guid>https://sammler.github.io/docs/standards/makefile/</guid>
       <description> To simplify working with several projects, I have set up some standards:
 Help Each Makefile should contain a help command:
-help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @grep -E &#39;^[a-zA-Z_-]+:.*?## .*$$&#39; $(MAKEFILE_LIST) | sort | awk &#39;BEGIN {FS = &amp;quot;:.*?## &amp;quot;}; {printf &amp;quot;\033[36m%-30s\033[0m %s\n&amp;quot;, $$1, $$2}&#39; @echo &#39;&#39; .PHONY: help  Readme gen-readme: ## Generate the README.md file. npm run docs .PHONY: gen-readme  </description>
+help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @grep -E &#39;^[a-zA-Z0-9_-]+:.*?## .*$$&#39; $(MAKEFILE_LIST) | sort | awk &#39;BEGIN {FS = &amp;quot;:.*?## &amp;quot;}; {printf &amp;quot;\033[36m%-30s\033[0m %s\n&amp;quot;, $$1, $$2}&#39; @echo &#39;&#39; .PHONY: help  Readme gen-readme: ## Generate the README.md file. npm run docs .PHONY: gen-readme  </description>
     </item>
     
     <item>
@@ -154,7 +162,7 @@ help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @g
       
       <guid>https://sammler.github.io/docs/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
-   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3100 strategy-github    3101 strategy-heartbeat    3102 strategy-heartbeat-ui    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
+   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3011 user-profile    3100 strategy-github    3101 strategy-heartbeat    3102 strategy-heartbeat-ui    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
     </item>
     
     <item>
