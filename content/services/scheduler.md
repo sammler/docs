@@ -8,7 +8,7 @@ menu:
 
 ## Introduction
 
-_scheduler-service_ publishes messages to RabbitMQ based on scheduled events (jobs).
+_scheduler_ service publishes messages to NATS based on scheduled events (jobs).
 
 It is also the responsibility of _scheduler-service_ to store the initial state of jobs (using _sammler-jobs-service_).
 
