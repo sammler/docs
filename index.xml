@@ -162,7 +162,7 @@ help:	## Show this help. @echo &#39;&#39; @echo &#39;Available commands:&#39; @g
       
       <guid>https://sammler.github.io/docs/configuration/ports/</guid>
       <description>Overview of sammler.io services and their assigned ports.
-   Port Service Url     3000 strategy-twitter    3001 scheduler-service    3003 jobs-service    3004 log-service    3010 auth-service    3011 user-profile    3100 strategy-github    3101 strategy-heartbeat    3102 strategy-heartbeat-ui    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB    15672 RabbitMq Management Plugin     </description>
+   Port Service Url     3000 strategy-twitter    3001 scheduler    3003 jobs-service    3004 log    3010 auth-service    3011 user-profile    3100 strategy-github    3101 strategy-heartbeat    3102 strategy-heartbeat-ui    4200 sammler-web    5000 Logstash    5672 RabbitMq    9000 Portainer    12201 Logstash Gelf    27017 MongoDB     </description>
     </item>
     
     <item>
@@ -221,11 +221,11 @@ const AppServer = require(&#39;./src/server.js&#39;); const ON_DEATH = require(&
     
     <item>
       <title>scheduler-service</title>
-      <link>https://sammler.github.io/docs/services/scheduler-service/</link>
+      <link>https://sammler.github.io/docs/services/scheduler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sammler.github.io/docs/services/scheduler-service/</guid>
-      <description>Introduction scheduler-service publishes messages to RabbitMQ based on scheduled events (jobs).
+      <guid>https://sammler.github.io/docs/services/scheduler/</guid>
+      <description>Introduction scheduler service publishes messages to NATS based on scheduled events (jobs).
 It is also the responsibility of scheduler-service to store the initial state of jobs (using sammler-jobs-service).
 Configuration The following environment variables need to be defined for running the service:
 scheduler-service Related  LOAD_JOBS_FROM_FILE - If set to true, the config files will be loaded from the directory /opts/scheduler-service/jobs/jobs.yml  Here&amp;rsquo;s a sample file:
