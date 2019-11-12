@@ -12,5 +12,3 @@ This is kind of the sandbox environment to test some principle and deployment.
 ## Configuration
 
 - `PORT` - 
-- `RABBITMQ_URI` - 
-- `LOG_SERVICE_URI` - 
